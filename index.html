@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="nav-center">
+          <div class="nav-header">
+            <img src="./img/tempLogo.jpg" alt="" class="logo" />
+            <button class="toggle-nav">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+
+          <div class="links-container">
+            <ul class="links">
+              <li><a class="nav-link" href="#">Link One</a></li>
+              <li><a class="nav-link" href="#">Link two</a></li>
+              <li><a class="nav-link" href="#">Link Three</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- slider contianer responsible for the slides only  -->
+    <section class="slider">
+      <div class="slide-container">
+        <article class="slide">
+          <div class="img-container">
+            <img
+              class="slider-img"
+              src="https://images.unsplash.com/photo-1546268060-2592ff93ee24?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3lkbmV5fGVufDB8fDB8fHww"
+              alt=""
+            />
+            <div class="img-text-box">
+              <p>Some text here!</p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="slider-btn-container">
+        <button class="slider-nav-btn prev-btn">prev</button>
+        <button class="slider-nav-btn next-btn">next</button>
+      </div>
+
+      <div class="pagination">
+        <div class="dot"></div>
+        <div class="dot active-dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </section>
+  </body>
+</html>
